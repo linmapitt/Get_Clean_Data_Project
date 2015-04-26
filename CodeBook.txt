@@ -1,0 +1,38 @@
+		Data Dictionary - Result Smartphone Data Set
+
+
+Subject		2      
+		Subject who performed the activity for each window sample.
+			01 to 30 (total 30 subjects)
+Activity	18  
+		Activity names that are performed by subjects
+		WALKING
+		WALKING_UPSTAIRS
+		WALKING_DOWNSTAIRS
+		SITTING
+		STANDING
+		LAYING
+meanoftBodyAccmeanX		17      
+		Mean of tBodyAcc-mean()-X for a unique subject when performs a specific activity
+		tBodyAcc-mean()-X is mean of time domain body acceleration signals in X direction 
+        0.000000000000000 .. 0.999999999999999   
+meanoftBodyAccmeanY		20      
+		Mean of tBodyAcc-mean()-Y for a unique subject when performs a specific activity
+		tBodyAcc-mean()-Y is mean of time domain body acceleration signals in Y direction 
+        -0.00000000000000000 .. -0.99999999999999999
+meanoftBodyAccmeanZ		20      
+		Mean of tBodyAcc-mean()-Z for a unique subject when performs a specific activity
+		tBodyAcc-mean()-Z is mean of time domain body acceleration signals in Z direction 
+        -0.00000000000000000 .. -0.99999999999999999
+meanoftBodyAccstdX		20
+		Mean of tBodyAcc-std()-X for a unique subject when performs a specific activity
+		tBodyAcc-std()-X is Standard deviation of time domain body acceleration signals in X direction
+		0.000000000000000000 .. -0.99999999999999999
+meanoftBodyAccstdY		20
+		Mean of tBodyAcc-std()-Y for a unique subject when performs a specific activity
+		tBodyAcc-std()-Y is Standard deviation of time domain body acceleration signals in Y direction
+		0.000000000000000000 .. -0.99999999999999999
+meanoftBodyAccstdZ		20
+		Mean of tBodyAcc-std()-Z for a unique subject when performs a specific activity
+		tBodyAcc-std()-Z is Standard deviation of time domain body acceleration signals in Z direction
+		0.000000000000000000 .. -0.99999999999999999
